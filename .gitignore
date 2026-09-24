@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OMO 运行时产物（无秘密也无需提交）
+.omo/run-continuation/
+.omo/plans/
+.omo/*.log
+
+# OpenCode 本地缓存/会话
+.opencode/session/
+.opencode/state/
+*.log
+
+# Node（如未来加脚本）
+node_modules/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
